@@ -1,5 +1,6 @@
 ---
 layout: post
+comments:true
 title: "Example Content"
 author: "Chester"
 ---
@@ -134,3 +135,4 @@ and `<br>` for line breaks.
 <br>
 
 _The end_
+
