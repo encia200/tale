@@ -1,6 +1,5 @@
 ---
 layout: default
-comments:true
 ---
 
 <div class="post">
@@ -22,7 +21,9 @@ comments:true
     <div class="post-line"></div>
     
     {{ content }}
-    {% include comments.html %}
+    {% if page.comments != false %}
+        {% include disqus_comments.html %}
+    {% endif %}
 
 </div>
 
