@@ -1,14 +1,15 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+title:          WJY
+description:    "Hello World!"
 baseurl:        ""
-url:            "https://encia200.github.io"
+url:            "https://www.wiejoonyoung.com"
+enforce_ssl: www.wiejoonyoung.com
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         WIE JOON YOUNG
+  url:          https://www.wiejoonyoung.com
+  email:        encia200@gmail.com
 
 # Build settings
 markdown:       kramdown
