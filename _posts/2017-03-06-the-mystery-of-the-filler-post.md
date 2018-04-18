@@ -1,6 +1,6 @@
 ---
 layout: post
-comments:true
+comments: true
 title: "The Mystery of the Filler Post"
 author: "Chester"
 ---

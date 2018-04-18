@@ -1,6 +1,6 @@
 ---
 layout: post
-comments:true
+comments: true
 title: "Pagination Post"
 author: "Chester"
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-comments:true
+comments: true
 title:  "안녕하세요!"
 author: "위준영"
 ---
