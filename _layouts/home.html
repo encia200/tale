@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="catalogue">
     {% for post in paginator.posts %}
-    <p>
-    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
+    <p class="catalogue-item">
+    <a href="{{ post.url | prepend: site.baseurl }}">
         <div>
             <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
             <h1 class="catalogue-title">{{ post.title }}</h1>
