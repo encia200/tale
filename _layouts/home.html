@@ -8,12 +8,18 @@ layout: default
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
         <h1 class="catalogue-title">{{ post.title }}</h1>
         <div class="catalogue-line"></div>
-        <p>
-          {{ post.content | strip_html | truncatewords: 30 }}
-        </p>
       </div>
   </a>
+  
+  <div>
+    <p>
+  <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
+  {{ post.content | strip_html | truncatewords: 30 }}
+  </a>
   <a href="https://wiejoonyoung.com{{ page.url }}#disqus_thread">0 Comments</a>
+  </p>
+  
+  </div>
   {% endfor %}
 </div>
 
