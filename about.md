@@ -5,6 +5,8 @@ author: "위준영"
 permalink: /about/
 ---
 
+{% highlight markdown %}
+
 #애국가
 
 ###1절:
@@ -58,8 +60,11 @@ permalink: /about/
 - [ ] Check box
 - [ ] Todo list
 
+{% endhighlight %}
+
 ## Contribute
 
 Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
 
 Thanks for reading!
+
