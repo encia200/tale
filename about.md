@@ -7,9 +7,9 @@ permalink: /about/
 
 
 
-#애국가
+# 애국가
 
-##1절:
+## 1절:
 
 ```
 동해 물과 백두산이 마르고 닳도록
@@ -21,7 +21,7 @@ permalink: /about/
 대한 사람 대한으로 길이 보전하세
 ```
 
-##2절:
+## 2절:
 
 ```
 남산 위에 저 소나무 철갑을 두른 듯
@@ -57,7 +57,7 @@ permalink: /about/
 대한 사람 대한으로 길이 보전하세
 ```
 
-- [ ] Check box
+- [x] Check box
 - [ ] Todo list
 
 ## Contribute
