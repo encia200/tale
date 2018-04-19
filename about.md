@@ -5,11 +5,11 @@ author: "위준영"
 permalink: /about/
 ---
 
-{% highlight markdown %}
+
 
 #애국가
 
-###1절:
+##1절:
 
 ```
 동해 물과 백두산이 마르고 닳도록
@@ -21,7 +21,7 @@ permalink: /about/
 대한 사람 대한으로 길이 보전하세
 ```
 
-###2절:
+##2절:
 
 ```
 남산 위에 저 소나무 철갑을 두른 듯
@@ -33,7 +33,7 @@ permalink: /about/
 대한 사람 대한으로 길이 보전하세
 ```
 
-### 3절:
+## 3절:
 
 ```
 가을 하늘 공활한데 높고 구름 없이
@@ -45,7 +45,7 @@ permalink: /about/
 대한 사람 대한으로 길이 보전하세
 ```
 
-### 4절:
+## 4절:
 
 ```
 이 기상과 이 맘으로 충성을 다하여
@@ -59,8 +59,6 @@ permalink: /about/
 
 - [ ] Check box
 - [ ] Todo list
-
-{% endhighlight %}
 
 ## Contribute
 
