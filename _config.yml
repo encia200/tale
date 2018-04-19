@@ -23,6 +23,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+# jekyll-sitemap should be after other plugins.
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
