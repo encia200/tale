@@ -1,15 +1,65 @@
 ---
 layout: post
 title: "About"
-author: "Chester"
+author: "위준영"
 permalink: /about/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+#애국가
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+###1절:
+
+```
+동해 물과 백두산이 마르고 닳도록
+
+하느님이 보우하사 우리나라 만세
+
+무궁화 삼천리 화려 강산
+
+대한 사람 대한으로 길이 보전하세
+```
+
+###2절:
+
+```
+남산 위에 저 소나무 철갑을 두른 듯
+
+바람 서리 불변함은 우리 기상일세
+
+무궁화 삼천리 화려 강산
+
+대한 사람 대한으로 길이 보전하세
+```
+
+### 3절:
+
+```
+가을 하늘 공활한데 높고 구름 없이
+
+밝은 달은 우리 가슴 일편단심일세
+
+무궁화 삼천리 화려 강산
+
+대한 사람 대한으로 길이 보전하세
+```
+
+### 4절:
+
+```
+이 기상과 이 맘으로 충성을 다하여
+
+괴로우나 즐거우나 나라 사랑하세
+
+무궁화 삼천리 화려 강산
+
+대한 사람 대한으로 길이 보전하세
+```
+
+- [ ] Check box
+- [ ] Todo list
 
 ## Contribute
+
 Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
 
 Thanks for reading!
