@@ -3,17 +3,17 @@ layout: default
 ---
 <div class="catalogue">
     {% for post in paginator.posts %}
-    <p class="catalogue-item">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <div>
+    <div class="catalogue-item">
+        <a href="{{ post.url | prepend: site.baseurl }}">
             <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
             <h1 class="catalogue-title">{{ post.title }}</h1>
             <div class="catalogue-line"></div>
             {{ post.content | strip_html | truncatewords: 30 }}
-        </div>
-    </a>
-    <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">0 Comments</a>
-    </p>
+        </a>
+        <p>
+        <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">0 Comments</a>
+        </p>
+    </div>
     {% endfor %}
 </div>
 
