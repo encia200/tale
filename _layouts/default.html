@@ -20,7 +20,7 @@
         var last_top = 0;
         $(window).scroll(function() {
                          var this_top = $(this).scrollTop();
-                         if( this_top > last_top ) {
+                         if( this_top > last_top && last_top>0) {
                             $(".nav").addClass("hide");
                          }
                          else {
