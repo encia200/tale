@@ -7,11 +7,11 @@ layout: default
   {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
       <div>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}<a href="https://wiejoonyoung.com{{ post.url | relative_url }}#disqus_thread"></a></time>
         <h1 class="catalogue-title">{{ post.title }}</h1>
         <div class="catalogue-line"></div>
         <p>
-          {{ post.content | strip_html | truncatewords: 30 }<a href="https://wiejoonyoung.com{{ post.url | relative_url }}#disqus_thread"></a>}
+          {{ post.content | strip_html | truncatewords: 30 }}
         </p>
       </div>
     </a>
