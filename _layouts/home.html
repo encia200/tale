@@ -3,6 +3,7 @@ layout: default
 ---
 <div class="catalogue">
     {% for post in paginator.posts %}
+    <p>
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
         <div>
             <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
@@ -14,8 +15,11 @@ layout: default
             </p>
         </div>
     </a>
-    • <a href="{{ site.url }}{{ page.url }}#disqus_thread">0 Comments</a>
+    </p>
+    <p>
+    <a href="{{ site.url }}{{ page.url }}#disqus_thread">• 0 Comments</a>
     {% endfor %}
+    </p>
 </div>
 
 <div class="pagination">
