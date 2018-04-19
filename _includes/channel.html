@@ -1,0 +1,34 @@
+<script>
+    ;window.channelPluginSettings = {
+        "pluginKey": "7e9d6e80-16c9-4dc6-bb98-f046e17ab231"
+    };
+(function() {
+ var w = window;
+ if (w.ChannelIO) {
+ return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
+ }
+ var d = window.document;
+ var ch = function() {
+ ch.c(arguments);
+ };
+ ch.q = [];
+ ch.c = function(args) {
+ ch.q.push(args);
+ };
+ w.ChannelIO = ch;
+ function l() {
+ var s = document.createElement('script');
+ s.type = 'text/javascript';
+ s.async = true;
+ s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
+ s.charset = 'UTF-8';
+ var x = document.getElementsByTagName('script')[0];
+ x.parentNode.insertBefore(s, x);
+ }
+ if (window.attachEvent) {
+ window.attachEvent('onload', l);
+ } else {
+ window.addEventListener('DOMContentLoaded', l, false);
+ }
+ })();
+    </script>
