@@ -5,12 +5,16 @@ layout: default
     {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
         <div>
-            <p>
-            <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>{% if page.comments %} • <a href="{{ site.url }}{{ page.url }}#disqus_thread"></a>{% endif %}
+            <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
             <h1 class="catalogue-title">{{ post.title }}</h1>
             <div class="catalogue-line"></div>
+            
+            <p>
             {{ post.content | strip_html | truncatewords: 30 }}
             </p>
+            {% if page.comments %}
+            • <a href="{{ site.url }}{{ page.url }}#disqus_thread"></a>
+            {% endif %}
             
         </div>
     </a>
