@@ -17,7 +17,7 @@ layout: default
     </a>
     </p>
     <p>
-    <a href="{{ site.url }}{{ page.url }}#disqus_thread">• 0 Comments</a>
+    <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">• 0 Comments</a>
     </p>
     {% endfor %}
 </div>
