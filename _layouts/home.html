@@ -12,10 +12,7 @@ layout: default
             <p>
             {{ post.content | strip_html | truncatewords: 30 }}
             </p>
-            {% if page.comments %}
-            • <a href="{{ site.url }}{{ page.url }}#disqus_thread"></a>
-            {% endif %}
-            
+            • <a href="{{ site.url }}{{ page.url }}#disqus_thread">0 Comments</a>
         </div>
     </a>
     {% endfor %}
