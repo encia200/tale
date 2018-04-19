@@ -1,5 +1,5 @@
 # Site settings
-title:          WJY
+title:          WIEBLOG
 description:    "Hello World!"
 baseurl:        ""
 url:            "https://www.wiejoonyoung.com"
@@ -24,6 +24,6 @@ plugins:
   - jekyll-paginate
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate:       100
 
 disqus: wiejoonyoung
