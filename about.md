@@ -62,7 +62,7 @@ permalink: /about/
 
 ## Contribute
 
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
+Feel free to create an issue or make a pull request on [GitHub](https://wiejoonyoung).
 
 Thanks for reading!
 
