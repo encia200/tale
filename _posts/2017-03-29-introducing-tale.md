@@ -1,25 +1,20 @@
 ---
 layout: post
 comments: true
-title:  "Introducing Tale"
-author: "Chester"
+title:  "블로그 개요"
+author: "위준영"
 ---
 
-Tale is minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers. It is designed and developed by [myself](https://github.com/chesterhow/) for a friend who writes short stories.
+we**b** + **log** = **blog**
 
-## Tale features
-- Compatible with GitHub Pages
-- Responsive design (looks just as good on mobile)
-- Syntax highlighting, with the help of Pygments
-- Markdown and HTML text formatting
-- Pagination of posts
+[소셜 네트워크 서비스](https://namu.wiki/w/%EC%86%8C%EC%85%9C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%84%9C%EB%B9%84%EC%8A%A4)의 일종, [개인이 운영하는 웹사이트](https://namu.wiki/w/%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80)를 말한다.
 
-Head over to the [Example Content]({{ site.baseurl }}/2017-03-16/example-content) post for a showcase of Tale's text formatting features.
+[위키피디아](https://namu.wiki/w/%EC%9C%84%ED%82%A4%ED%94%BC%EB%94%94%EC%95%84)의 설명을 빌려다 쓰면, 1980년대 뉴스그룹 시절부터 블로그의 개념에 해당하는 페이지는 존재했다고 한다. 현재의 블로그와 같은 형태를 가지게 된 것은 2000년대 들어서 개인 일기장 역할이나 하던 웹사이트들이 상호간 교류를 트기 시작하면서 각종 의사소통의 장이 된 것에서 기인한다고 한다.
 
-## Browser Support
-Tale works on most if not all modern browsers, including Chrome, Safari and Firefox 👍🏼
+2000년 이후 10~30대에게는 다수가 이용하는 개인 홈페이지에 가깝다. 초기에는 [설치형 블로그](https://namu.wiki/w/%EC%84%A4%EC%B9%98%ED%98%95%20%EB%B8%94%EB%A1%9C%EA%B7%B8)만 존재하였기에 IT 분야 종사자 등에서 한정적으로 사용했다가 [서비스형 블로그](https://namu.wiki/w/%EC%84%9C%EB%B9%84%EC%8A%A4%ED%98%95%20%EB%B8%94%EB%A1%9C%EA%B7%B8)의 등장으로 복잡한 설치과정 없이 클릭 한 번으로 블로그를 열 수 있게 되었다. 더불어 [디지털 카메라](https://namu.wiki/w/%EB%94%94%EC%A7%80%ED%84%B8%20%EC%B9%B4%EB%A9%94%EB%9D%BC) 가격이 폭락하고 포스팅할 거리가 많아지면서 차츰 [싸이월드](https://namu.wiki/w/%EC%8B%B8%EC%9D%B4%EC%9B%94%EB%93%9C) 이상으로 인기를 끌기 시작했다.
 
-## Download or Contribute
-Tale is publicly hosted on GitHub, so go ahead and download or fork it at the [GitHub repository](https://github.com/chesterhow/tale). If you spot any bugs or have any suggestions, feel free to create an issue or make a pull request.
+자기 생각이나 견해없이, 혹은 위장용으로 몇 개만 대충 올려놓고 나머지는 특정 기업이나 상점의 상품광고에 할애하는 광고용 블로그도 범람하고 있다. 특정 상품을 홍보하고 리베이트를 받는 블로그도 있으며, 기업 자체가 영리 목적으로 블로그를 개설해 뛰어드는 사례도 어렵지 않게 찾아볼 수 있다.
 
-Thanks for checking out Tale!
+블로그에서 행해지는 이러한 변칙적 광고행위는 광고가 아닌 일상적인 포스팅으로 여겨지는 일이 많아 소비자들에게 다가가기 쉽다는 강점을 가지고 있고, 특히 식료품이나 가전제품, 화장품, 의류, 보험 영역에서 매우 자주 나타나고 있다([바이럴 마케팅](https://namu.wiki/w/%EB%B0%94%EC%9D%B4%EB%9F%B4%20%EB%A7%88%EC%BC%80%ED%8C%85) 참조).
+
+나무위키 같은 위키에서 [독자연구](https://namu.wiki/w/%EB%8F%85%EC%9E%90%EC%97%B0%EA%B5%AC) 내용을 삭제할 때 남기는 코멘트 중에서 종종 '이런 것은 블로그에 쓰세요' 라는 멘트를 찾아볼 수 있다. 블로그가 자신의 생각을 자유롭게 서술할 수 있는 대표적인 사이버 공간 중 하나라는 의미다. ~~블로그로 쫓아내고 싶으면 티스토리 초대장부터 줘야 하지 않나? 네이버나 이글루스를 쓰라는 거 아닌가?~~[[1\]](https://namu.wiki/w/%EB%B8%94%EB%A1%9C%EA%B7%B8#fn-1)

@@ -7,7 +7,8 @@ author: "Wie Joon Young"
 
 # Hello World!
 
-```C++
+{% highlight C++ %}
+
 #include <stdio.h>
 
 int main(){
@@ -15,5 +16,4 @@ int main(){
 
 	return 0;
 }
-```
-
+{% endhighlight %}
