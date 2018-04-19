@@ -3,7 +3,7 @@
     border-bottom: 1px solid $grey-2;
     color: $default-color;
     display: inline-block;
-    padding: 2rem 0;
+    padding: 1rem 0;
 
     &:hover .catalogue-line,
     &:focus .catalogue-line {
@@ -14,7 +14,6 @@
       border: 0;
     }
   }
-
   &-time {
     color: $default-tint;
     font-family: $serif-secondary;
@@ -27,13 +26,26 @@
     font-family: $sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    margin: .5rem 0;
+    margin: .3rem 0;
   }
 
   &-line {
     @include transition(all .3s ease-out);
-    border-top: .2rem solid $default-shade;
+    border-top: .3rem solid $default-shade;
     display: block;
     width: 2rem;
+  }
+  &-content {
+    color: $default-color;
+    display: inline-block;
+    margin: .5rem 0;
+    &:hover .catalogue-line,
+    &:focus .catalogue-line {
+      width: 5rem;
+    }
+
+    &:last-child {
+      border: 0;
+    }
   }
 }

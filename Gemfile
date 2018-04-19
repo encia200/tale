@@ -1,4 +1,4 @@
 # frozen_string_literal: true
 
-source "https://www.wiejoonyoung.com"
+source "https://rubygems.org"
 gemspec
