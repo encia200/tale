@@ -15,8 +15,6 @@ author:
 markdown:       kramdown
 highlighter: rouge
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
   syntax_highlighter_opts:
     default_lang: c++
     css_class: 'highlight'
