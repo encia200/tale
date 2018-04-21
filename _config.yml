@@ -13,15 +13,18 @@ author:
 
 # Build settings
 markdown:       kramdown
+highlighter: rouge
 kramdown:
+  input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    default_lang: csharp
+    default_lang: c++
     css_class: 'highlight'
     span:
       line_numbers: false
     block:
       line_numbers: true
+      start_line: 1
 
 # Assets
 sass:
@@ -36,3 +39,4 @@ permalink:      /:year-:month-:day/:title
 paginate:       100
 
 disqus: wiejoonyoung
+highlighter: rouge
