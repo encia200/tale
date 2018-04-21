@@ -5,10 +5,10 @@ title:  "Hello World!"
 author: "Wie Joon Young"
 ---
 
-# Hello World!
+Hello World!
+=========
 
-{% highlight C++ %}
-
+```c++
 #include <stdio.h>
 
 int main(){
@@ -16,4 +16,4 @@ int main(){
 
 	return 0;
 }
-{% endhighlight %}
+```
