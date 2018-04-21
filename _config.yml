@@ -13,7 +13,7 @@ author:
 
 # Build settings
 markdown:       kramdown
-highlighter: pygments
+highlighter: rouge
 kramdown:
   syntax_highlighter_opts:
     default_lang: c++
