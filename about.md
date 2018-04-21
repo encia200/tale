@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "About"
-author: "위준영"
+title: About
+author: 위준영
 permalink: /about/
+published: true
 ---
 
 
@@ -45,18 +46,6 @@ permalink: /about/
 대한 사람 대한으로 길이 보전하세
 ```
 
-## 4절:
-
-```
-이 기상과 이 맘으로 충성을 다하여
-
-괴로우나 즐거우나 나라 사랑하세
-
-무궁화 삼천리 화려 강산
-
-대한 사람 대한으로 길이 보전하세
-```
-
 - [x] Check box
 - [ ] Todo list
 
@@ -65,4 +54,3 @@ permalink: /about/
 Feel free to create an issue or make a pull request on [GitHub](https://wiejoonyoung).
 
 Thanks for reading!
-
