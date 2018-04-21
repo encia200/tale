@@ -10,16 +10,20 @@ comments: true
         {% else %}
         {{ site.author.name }}
         {% endif %}
-        
+
         {% if page.date %}
         <br>
         <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
         {% endif %}
     </div>
-    
+
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-line"></div>
-    
+
+    {% if page.title=="About" %}
+      <img src="/assets/img_avatar.png" alt="Avatar" style="border-radius: 50%; height: 10rem; weight: 10rem;"/>
+    {% endif %}
+
     {{ content }}
     {% include disqus_comments.html %}
 
@@ -32,6 +36,6 @@ comments: true
     {% if page.previous.url %}
     <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">다음&nbsp; &#8594;</a>
     {% endif %}
-    
+
     <a href="#" class="top">Top</a>
 </div>
