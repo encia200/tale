@@ -6,7 +6,8 @@ code {
 code {
   background-color: $grey-3;
   border-radius: 3px;
-  color: $code-color;
+  // color: $code-color;
+  color: white;
   font-size: 85%;
   padding: .25em .5em;
 }
@@ -17,7 +18,7 @@ pre {
 
 pre code {
   background-color: transparent;
-  color: inherit; // basic code color
+  color: white; // basic code color
   font-size: 100%;
   padding: 0;
 }
