@@ -14,15 +14,15 @@ author:
 # Build settings
 markdown:       kramdown
 highlighter: rouge
-kramdown:
-  syntax_highlighter_opts:
-    default_lang: c++
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+# kramdown:
+#   syntax_highlighter_opts:
+#     default_lang: c++
+#     css_class: 'highlight'
+#     span:
+#       line_numbers: false
+#     block:
+#       line_numbers: true
+#       start_line: 1
 
 # Assets
 sass:
@@ -32,6 +32,7 @@ sass:
 # Gems
 plugins:
   - jekyll-paginate
+
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       100
