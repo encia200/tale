@@ -26,4 +26,9 @@
       if ((host == window.location.host) && (window.location.protocol != "https:"))
       window.location.protocol = "https";
   </script>
+
+  <!-- google_analytics -->
+  {% if site.google_analytics %}
+    include google_analytics
+  {% endif %}
 </head>
