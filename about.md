@@ -2,7 +2,7 @@
 layout: post
 title: About
 author: 위준영
-permalink: /about/
+permalink: /About/
 published: true
 ---
 
@@ -23,7 +23,7 @@ published: true
 2절
 ----
 
-```
+```text
 남산 위에 저 소나무 철갑을 두른 듯
 바람 서리 불변함은 우리 기상일세
 무궁화 삼천리 화려 강산
