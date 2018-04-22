@@ -2,7 +2,7 @@
 layout: post
 title: Edu
 author: 위준영
-permalink: /Edu/
+permalink: /edu/
 published: true
 ---
 

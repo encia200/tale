@@ -43,3 +43,15 @@ highlighter: rouge
 # Analytics
 google_analytics:
   ua: UA-117932332-1
+
+navigation:
+  - title: About
+    url: /about
+  - title: /Edu
+    url: /edu
+  - title: Links
+    url: /links
+  - title: Categories
+    url: /category
+  - title: Posts
+    url: /index.html

@@ -2,7 +2,7 @@
 layout: post
 title: Bookmarks
 author: 위준영
-permalink: /Links/
+permalink: /links/
 published: true
 ---
 

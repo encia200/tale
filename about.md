@@ -2,7 +2,7 @@
 layout: post
 title: About
 author: 위준영
-permalink: /About/
+permalink: /about/
 published: true
 ---
 
