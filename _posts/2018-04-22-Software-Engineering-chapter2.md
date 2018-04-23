@@ -1,34 +1,16 @@
 ---
 layout: post
-title:  "소프트웨어공학 중간고사"
+title:  "소프트웨어공학 2장"
 comments: true
 author: "위준영"
 categories: [study]
 ---
 <br><br><br>
 
-1장 Introduction
-============
+2장 Software Process
+================
 
 <br>
-
-## 소프트웨어공학의 정의
-```c
-"소프트웨어 개발과 운용 및 유지보수에 대한 체계적이며 훈련된 계량적 접근 방식의 적용"
-"질 좋은 소프트웨어를 경제적으로 생산하기 위하 공학, 과학 및 수학적원리와 방법을 적용하는 것"
-"품질, 효율, 비용에 관한 공학적인 접근 원리"
-```
-## 목표
-```c
-"고품질의 소프트웨어 개발"
-"생산성을 높이는(비용과 시간에 효율적인) 개발"
-```
-<br><br><br>
-
-### 소프트웨어공학 윤리
->비밀유지, 능력, 지적재산권, 컴퓨터남용
-
-<br><br><br>
 
 ### 소프트웨어 공학이란 무엇인가?
 > 소프트웨어 생산의 모든 측면과 관련된 공학 학문 분야
@@ -56,18 +38,14 @@ categories: [study]
 <br><br>
 
 ## Software Engineering as a Layered Technology
-![소프트웨어 프로세스 계층](/assets/img/software process layer.png "소프트웨어 프로세스 계층")
+![소프트웨어 프로세스 계층](/assets/img/software process layer.png "소프트웨어 프로세스 계층"){: width="90%" height="90%"}
 
-> 위의 3단계를 Generic Phases(일반적인 단계들)로서 Framework Activities라고 한다.
-
-> Framework Activities의 위 단계로서 Umbrella Activities라는 것이 있다.
+> 위의 3단계를 Generic Phases(일반적인 단계들)로서 Framework Activities라고 한다. <br> Framework Activities의 위 단계로서 Umbrella Activities라는 것이 있다.
 
 <br><br>
 
 ## Software Process : Model
-> 소프트웨어 프로세스의 추상적인표현.
-
-> 소프트웨어 생산에 있어서 필요한 활동의 집합 또는 사람들을 잘 가이드해 줄 수 있는 것들의 집합
+> 소프트웨어 프로세스의 추상적인표현. <br> 소프트웨어 생산에 있어서 필요한 활동의 집합 또는 사람들을 잘 가이드해 줄 수 있는 것들의 집합
 
 <br>
 
@@ -100,7 +78,7 @@ categories: [study]
   <br><br>
 
 ### 2. 프로토타입 모델
-  ![프로토타입 모델](/assets/img/prototype model.png "프로토타입 모델")
+  ![프로토타입 모델](/assets/img/prototype model.png "프로토타입 모델"){: width="50%" height="50%"}
   **1. 특징**
   - 사용자의 요구사항을 정확히 파악하기 위해 실제 개발될 소프트웨어에 대한 견본(시제)품(Prototype)을
 만들어 최종 결과물을 예측하는 모델
@@ -124,7 +102,7 @@ categories: [study]
   <br><br>
 
 ### 3. RAD(Rapid Application Development Model) 모델
-![RAD 모델](/assets/img/RAD model.png "RAD 모델")
+![RAD 모델](/assets/img/RAD model.png "RAD 모델"){: width="50%" height="50%"}
 **1. 특징**
   - 재사용가능한 프로그램 **콤포넌트들을 사용**한다.
   - RAD 모델은 컴포넌트를 사용하여 매우 빠르게 선형 순차적 모델을 적용
@@ -145,7 +123,7 @@ RAD가 사용될 수 있음
   - 모듈화 되지 않는다면, 컴포넌트를 만드는 것에 문제가 있을 수 있음
 
 ### 4. 진화적 개발(Evolutionary Development)
-![진화적 개발](/assets/img/evolutionary development.png "진화적 개발")
+![진화적 개발](/assets/img/evolutionary development.png "진화적 개발"){: width="50%" height="50%"}
 **1.특징**
   - **소규모, 중규모** 시스템(500,000 라인)이 진화적 방법을 적용하기에 좋음
   - 실험적개발
@@ -170,7 +148,7 @@ RAD가 사용될 수 있음
 <br><br>
 
 ### 5. 나선형(Spiral) 모델
-![나선형 모델](/assets/img/spiral model.png "나선형 모델")
+![나선형 모델](/assets/img/spiral model.png "나선형 모델"){: width="70%" height="70%"}
 **1. 특징**
   - 폭포수 모델과 프로토타입 모델의 장점에 **위험분석** 기능을 추가한 모델
   - 나선을 따라 돌듯이 여러 번의 소프트웨어 개발 과정을 거쳐 점진적으로(**프로토타입을 지속적으로 발전**시켜)
@@ -193,7 +171,7 @@ RAD가 사용될 수 있음
 <br><br>
 
 ### 6. 점진적(Incremental) 모델
-![점진적 모델](/assets/img/incremental model.png "점진적 모델")
+![점진적 모델](/assets/img/incremental model.png "점진적 모델"){: width="70%" height="70%"}
 **1. 특징**
   - 폭포수 모델(**선형 순차적** 모델)에 프로토타입 모델의 **반복** 개념을 추가한 모델
   - 다른 모델들과 접목이 가능
@@ -217,7 +195,7 @@ RAD가 사용될 수 있음
 <br><br>
 
 ### 7. 동시적(Concurrent) 개발 모델
-![동시적 개발 모델](/assets/img/concurrent development model.png "동시적 개발모델")
+![동시적 개발 모델](/assets/img/concurrent development model.png "동시적 개발모델"){: width="30%" height="30%"}
 **1. 특징**
   - 분석 절차는 언제나 일어날 수 있는 상태(state) 중 하나이며, 다른
 절차(설계, 고객과의 의사소통) 역시 그와 비슷하게 표현됨
@@ -247,10 +225,10 @@ RAD가 사용될 수 있음
 개발자들에게 많은 도움을 줌
   - 비행 관제 소프트웨어, 의료 기기 소프트웨어
 
-  <br><br>
+<br><br>
 
 ### 9. 컴포넌트 기반 소프트웨어 공학
-![CBSE](/assets/img/component-based software engineering.png "CBSE")
+![CBSE](/assets/img/component-based software engineering.png "CBSE"){: width="70%" height="70%"}
 **1. 특징**
   - 대부분의 소프트웨어 프로젝트는 약간의 소프트웨어를 재사용한다.
   - 재사용에 의존
