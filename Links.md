@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Bookmarks
 author: 위준영
 permalink: /links/

@@ -1,11 +1,12 @@
 * {
   @include box-sizing;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
-html,
-body {
+body,
+html {
   color: $default-color;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +14,6 @@ body {
 html {
   font-family: helvetica;
   font-size: 14px;
-
   @media (min-width: 600px) {
     font-size: 16px;
   }
@@ -35,20 +35,25 @@ h6 {
 }
 
 a {
-  color: $blue;
+  font-family: helvetica;
+  font-size: 1.3rem;
+  color: #AF2318;
   text-decoration: none;
 }
+// a:link {text-decoration: none; color: #AF2318;}
+// a:visited {text-decoration: none; color: #AF2318;}
+// a:active {text-decoration: none; color: #AF2318;}
+// a:hover {text-decoration: none; color: #AF2318;}
 
 blockquote {
-  border-left: .25rem solid $grey-2;
+  border-left: 0.25rem solid $grey-2;
   color: $grey-1;
-  margin: .8rem 0;
-  padding: .5rem 1rem;
+  margin: 0.8rem 0;
+  padding: 0.5rem 1rem;
 
   p:last-child {
     margin-bottom: 0;
   }
-
   @media (min-width: 600px) {
     padding: 0 5rem 0 1.25rem;
   }

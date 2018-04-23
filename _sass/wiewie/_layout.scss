@@ -8,7 +8,7 @@ main,
 footer,
 .nav-container {
   display: block;
-  margin: 0 auto;
+  margin: 0rem auto;
   max-width: 800px;
   width: 80%;
 }
@@ -21,8 +21,13 @@ footer,
   width: 100%;
   transition: transform .3s;
 
+  padding-top:    0.3rem;
+  padding-bottom: 0.3rem;
+  //margin-bottom: 2rem;
+  // border-bottom: 1px solid #eee;
+
   &-container {
-    margin: 1rem auto;
+    margin: 0.5rem auto;
     position: relative;
     text-align: center;
   }

@@ -1,48 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
-  {% include head.html %}
+<!-- head -->
+{% include head.html %}
+<!-- google_analytics -->
+{% include google_analytics.html %}
 
-  <body>
+<body class="theme-base-08">
+
+  <!-- sidebar -->
+  {% include sidebar.html %}
+
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+  <div class="wrap">
     <nav class="nav">
       <div class="nav-container">
         <a href="{{ site.baseurl }}/">
           <h2 class="nav-title">{{ site.title }}</h2>
         </a>
-        <ul>
+        <!-- <small>{{ site.tagline }}</small> -->
+
+        <!-- <ul>
           <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
           <li><a href="{{ '/edu' | prepend: site.baseurl }}">Edu</a></li>
           <li><a href="{{ '/links' | prepend: site.baseurl }}">Links</a></li>
           <li><a href="{{ '/category' | prepend: site.baseurl }}">Categories</a></li>
+          <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
+          <li><a href="{{ '/archive' | prepend: site.baseurl }}">Archive</a></li>
           <li><a href="{{ site.baseurl }}/">Posts</a></li>
-        </ul>
+        </ul> -->
       </div>
     </nav>
-    <script src="//code.jquery.com/jquery.min.js"></script>
-    <script>
-        var last_top = 0;
-        $(window).scroll(function() {
-                         var this_top = $(this).scrollTop();
-                         if( this_top > last_top && last_top>0) {
-                            $(".nav").addClass("hide");
-                         }
-                         else {
-                            $(".nav").removeClass("hide");
-                         }
-                         last_top = this_top;
-                    });
-    </script>
 
-    <main>
-      {{ content }}
-    </main>
+    <div>
+      <main>
+        {{ content }} {% include disqus_comments.html %}
+      </main>
+    </div>
 
-    <footer>
-        {% include channel.html %}
-      <span>
-        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+  </div>
+
+  <!-- sidebar -->
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+  <script>
+    (function(document) {
+      var toggle = document.querySelector('.sidebar-toggle');
+      var sidebar = document.querySelector('#sidebar');
+      var checkbox = document.querySelector('#sidebar-checkbox');
+
+      document.addEventListener('click', function(e) {
+        var target = e.target;
+
+        if (!checkbox.checked ||
+          sidebar.contains(target) ||
+          (target === checkbox || target === toggle)) return;
+
+        checkbox.checked = false;
+      }, false);
+    })(document);
+  </script>
+
+  <!-- bottom -->
+  <footer>
+    <!-- channel -->
+    {% include channel.html %}
+
+    <span>
+        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}.
       </span>
-    </footer>
-    <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
-  </body>
+
+  </footer>
+
+  <!-- comment -->
+  <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
+
+  <!-- nav hide -->
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script>
+    var last_top = 0;
+    $(window).scroll(function() {
+      var this_top = $(this).scrollTop();
+      if (this_top > last_top && last_top > 0) {
+        $(".nav").addClass("hide");
+      } else {
+        $(".nav").removeClass("hide");
+      }
+      last_top = this_top;
+    });
+  </script>
+</body>
+
 </html>

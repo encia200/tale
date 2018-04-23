@@ -1,6 +1,7 @@
 # Site settings
 title:          WIEBLOG
-description:    "Hello World!"
+tagline:             'encia200(위준영)'
+description:    "안녕하세요, 위준영의 블로그입니다.<br/>encia200@gmail.com"
 baseurl:        ""
 url:            "https://www.wiejoonyoung.com"
 enforce_ssl: www.wiejoonyoung.com
@@ -29,21 +30,26 @@ sass:
   sass_dir:     _sass
   style:        compressed
 
-# Gems
-plugins:
-  - jekyll-paginate
+# Gems ... move to Gemfile
+# plugins:
+#   - jekyll-paginate
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
+# permalink:      /:year-:month-:day/:title
+  permalink:           date
+  relative_permalinks: false
+
+# paginate
 paginate:       100
 
+# Comments
 disqus: wiejoonyoung
-highlighter: rouge
 
 # Analytics
 google_analytics:
   ua: UA-117932332-1
 
+# navigation
 navigation:
   - title: About
     url: /about
@@ -55,3 +61,17 @@ navigation:
     url: /category
   - title: Posts
     url: /index.html
+
+# collections
+collections:
+  tags:
+    outpout: true
+    permalink: /tags/:path/
+
+# defaults
+defaults:
+  - scope:
+      path: ""
+      type: tags
+    values:
+      layout: tag

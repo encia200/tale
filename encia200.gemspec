@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README|_site)}i) }
 
-spec.add_runtime_dependency "jekyll", "~> 3.7.3"
+spec.add_runtime_dependency "jekyll", "~> 3.8.0"
 spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
 
 spec.add_development_dependency "bundler", "~> 1.16.1"

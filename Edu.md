@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Edu
 author: 위준영
 permalink: /edu/

@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: page
 title: About
-author: 위준영
 permalink: /about/
-published: true
 ---
+
+<img src="/assets/img_avatar.png" alt="Avatar" style="border-radius: 50%; height: 10rem; weight: 10rem;"/>
 
 애국가
 ====

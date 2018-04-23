@@ -17,14 +17,11 @@ layout: default
     </div>
 
     <h1 class="post-title">{{ page.title }}</h1>
+    {% include post_tags.html %}
     <div class="post-line"></div>
 
-    {% if page.title=="About" %}
-      <img src="/assets/img_avatar.png" alt="Avatar" style="border-radius: 50%; height: 10rem; weight: 10rem;"/>
-    {% endif %}
-
+    <br/>
     {{ content }}
-    {% include disqus_comments.html %}
 
 </div>
 
