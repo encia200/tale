@@ -8,8 +8,8 @@ gem "jekyll", "~> 3.8.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-paginate", "~> 1.1"
-  gem "jekyll-admin"
   gem "jekyll-mermaid"
+  gem "jekyll-admin"
 end
 
 gemspec
