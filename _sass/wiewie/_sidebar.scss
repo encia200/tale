@@ -10,7 +10,6 @@
   position: relative;
   width: 100%;
 }
-
 /*
  * Sidebar
  *
@@ -221,9 +220,9 @@ a.sidebar-nav-item:focus {
 .theme-base-08 .container a,
 .theme-base-08 .sidebar-toggle,
 .theme-base-08 .related-posts li a:hover,
-.theme-base-08 .post-title {
-  color: #ac4142;
-}
+// .theme-base-08 .post-title {
+//   color: #000;
+// }
 
 /*
  * Overlay sidebar

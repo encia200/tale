@@ -10,6 +10,7 @@
 
   <!-- sidebar -->
   {% include sidebar.html %}
+  {% include mathjax.html %}
 
   <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
@@ -83,8 +84,10 @@
       var this_top = $(this).scrollTop();
       if (this_top > last_top && last_top > 0) {
         $(".nav").addClass("hide");
+        $(".sidebar-toggle").addClass("hide");
       } else {
         $(".nav").removeClass("hide");
+        $(".sidebar-toggle").removeClass("hide");
       }
       last_top = this_top;
     });

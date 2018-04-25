@@ -1,0 +1,21 @@
+---
+layout: page
+permalink: /category/
+title: Category
+published: true
+---
+<div class="post" style="padding:2rem 0rem; ">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-line"></div>
+
+    <ul>
+      {% for category in site.categories %}
+        <li>
+          <a href="{{ category | first }}" style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 50  }}%">
+            {{ category | first }}
+          </a>
+          <span style="color: #AF2318;">({{category | last | size}})</span>
+        </li>
+      {% endfor %}
+    </ul>
+</div>

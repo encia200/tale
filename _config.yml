@@ -6,6 +6,9 @@ baseurl:        ""
 url:            "https://www.wiejoonyoung.com"
 enforce_ssl: www.wiejoonyoung.com
 
+github:
+  repo:              https://github.com/encia200
+
 # Author
 author:
   name:         WIE JOON YOUNG
@@ -50,28 +53,44 @@ google_analytics:
   ua: UA-117932332-1
 
 # navigation
-navigation:
-  - title: About
-    url: /about
-  - title: /Edu
-    url: /edu
-  - title: Links
-    url: /links
-  - title: Categories
-    url: /category
-  - title: Posts
-    url: /index.html
+# navigation:
+#   - title: About
+#     url: /about
+#   - title: /Edu
+#     url: /edu
+#   - title: Links
+#     url: /links
+#   - title: Categories
+#     url: /category
+#   - title: Posts
+#     url: /index.html
 
 # collections
-collections:
-  tags:
-    outpout: true
-    permalink: /tags/:path/
+# collections:
+#   tags:
+#     outpout: true
+#     permalink: /tags/:path/
 
-# defaults
-defaults:
-  - scope:
-      path: ""
-      type: tags
-    values:
-      layout: tag
+# # defaults
+# defaults:
+#   - scope:
+#       path: ""
+#       type: tags
+#     values:
+#       layout: tag
+
+# atom:
+#   buildCommand:
+#     - jekyll
+#     - build
+#     - --option
+#     - --this
+#   buildEnv:
+#     JEKYLL_ENV: development
+#   postDirs:
+#     - _newsletters
+#   defaultPostDir: _drafts
+
+mermaid:
+  src: '/js/mermaid.js'
+  src_config: '/js/mermaid_config.js'
