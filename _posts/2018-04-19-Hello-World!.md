@@ -25,7 +25,7 @@ graph LR
 A[AWS Kinesis] --> B[Spark Streaming Application]
 B --> C[AWS S3]
 B --> D[AWS Redshift]
-C -.-> D
+C --> D
 {% endmermaid %}
 
 {% mermaid %}
