@@ -20,13 +20,6 @@ int main(){
 	return 0;
 }
 ```
-{% mermaid %}
-graph LR
-A[AWS Kinesis] --> B[Spark Streaming Application]
-B --> C[AWS S3]
-B --> D[AWS Redshift]
-C --> D
-{% endmermaid %}
 
 {% mermaid %}
 graph TD;
