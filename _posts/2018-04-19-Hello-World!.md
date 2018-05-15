@@ -5,6 +5,7 @@ title:  "Hello World!"
 author: "Wie Joon Young"
 math: true
 tags: Hello-World!
+categories: [study]
 published: false
 ---
 
