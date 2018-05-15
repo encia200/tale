@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "국제무역의 이해(2018-05-02)"
+title: "국제무역의 이해 5월 2일"
 author: "위준영"
 categories: [study]
-tags: 국제무역의 이해
+tags: 국제무역의이해
 comments: true
+published: false
 ---
 
 ### 물류

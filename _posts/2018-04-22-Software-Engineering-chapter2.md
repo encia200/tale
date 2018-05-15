@@ -4,6 +4,7 @@ title:  "소프트웨어공학 2장"
 comments: true
 author: "위준영"
 categories: [study]
+published: false
 ---
 <br><br><br>
 

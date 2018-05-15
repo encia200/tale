@@ -5,6 +5,7 @@ author: "위준영"
 categories: [study]
 tags: 컴퓨팅적사고
 comments: true
+published: false
 ---
 
 > Computational thinking : 컴퓨팅 사고 <span style="font-style:italic">- 영어사전</span>
