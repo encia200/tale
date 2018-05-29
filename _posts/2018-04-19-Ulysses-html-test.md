@@ -61,6 +61,24 @@ tags: Ulysses
 
 <p>Ulysses는 기본적으로 편집기 안에 작은 이미지 미리보기를 표시합니다. 이 미리보기의 크기는 Ulysses의 “일반” 환경설정에서 조정하거나, 완전히 끌 수 있습니다: 이렇게 하면 이미지는 작은 말풍선 형태로 표시됩니다<code>IMG</code>.</p>
 
+<h2>괴짜들의 코너</h2>
+
+<p>마지막으로 <code>샘플 코드</code> 또는 미가공 소스 코드를 위한 마크업을 알아보겠습니다. 전자는 기술적인 문서를 쓸 때 요긴하고, 후자는 문서를 내보낼 때 코드를 실행할 수 있게 하는 등 수준 높은 기술입니다.</p>
+
+<p>두 유형의 코드 모두 시트에 통째로 삽입할 수 있습니다. 아주 고차원적인 Swift 코드를 예시로 들겠습니다 - GPL 방식으로 공개:</p>
+
+<pre><code class="code-highlighted code-swift"><span class="syntax-all syntax-keyword">let</span> myString <span class="syntax-all syntax-keyword">=</span> <span class="syntax-all syntax-string">&quot;You are beautiful.&quot;</span>
+<span class="syntax-all syntax-constant">print</span>(<span class="syntax-all syntax-string">&quot;Hello World. &quot;</span> <span class="syntax-all syntax-keyword">+</span> myString)</code></pre>
+
+<p>알림: 프로그래밍 언어의 경우 편집기에서 코드 문법이 강조됩니다.</p>
+
+<p>이번에는 테이블을 삽입하는 HTML미가공 소스 블록에 대한 예시를 보여드리겠습니다 (PDF로 내보낼 때 코드는 사라집니다):</p>
+
+<table border="1">
+	<tr><th>도시</th><th>국가</th><th>강</th></tr>
+	<tr><td>함부르크</td><td>헝가리</td><td>에로</td></tr>
+	<tr><td>라이프치히</td><td>라트비아</td><td>요브레가트</td></tr>
+</table>
 <ol id="footnotes">
 	<li id="fn1">(fn)을 읿력하고 팝오버에 텍스트를 적어넣으세요. <code>⌘↩︎</code> 키를 누른 후 계속 진행하세요. <a href="#ffn1">&#x21A9;&#xFE0E;</a></li>
 </ol></body>
